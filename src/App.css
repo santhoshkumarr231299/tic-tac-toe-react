@@ -1,0 +1,38 @@
+.square {
+  height: 50px;
+  width: 50px;
+  border-style: solid;
+}
+
+.square-horizontal {
+  display: flex;
+}
+
+.square-inner {
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+}
+
+.player {
+  margin: 10px;
+}
+
+.main {
+  display: flex;
+  gap: 50px;
+}
+
+button {
+  margin: 5px;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.winner {
+  color: red;
+  margin: 10px;
+}
+
